@@ -17,6 +17,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
         TextView tv = new TextView(this);
         tv.setTextSize(40);
+        tv.setPadding(10, 10, 10, 10);
         tv.setText(message);
 
         ViewGroup group = (ViewGroup)findViewById(R.id.activity_display_message);
