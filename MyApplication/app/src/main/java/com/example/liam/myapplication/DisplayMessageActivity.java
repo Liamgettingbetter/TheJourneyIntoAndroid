@@ -21,7 +21,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
         tv.setText(message);
 
         ViewGroup group = (ViewGroup)findViewById(R.id.activity_display_message);
-        // add textview widget into the layout
+        // add TextView widget into the layout
         group.addView(tv);
     }
 }
